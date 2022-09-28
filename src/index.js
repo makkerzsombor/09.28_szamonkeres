@@ -21,7 +21,7 @@ function borderChange() {
 }
 
 document.getElementById('kepurl').addEventListener('change',urlChange)
-document.getElementById('kepszel').addEventListener('change',widthChange)
-document.getElementById('kepkervas').addEventListener('change',kepKeretChange)
-document.getElementById('kepkerszin').addEventListener('change',borderChange)
+document.getElementById('kepszel').addEventListener('input',widthChange)
+document.getElementById('kepkervas').addEventListener('input',kepKeretChange)
+document.getElementById('kepkerszin').addEventListener('input',borderChange)
 document.getElementById('gomb').addEventListener('click',sotetfeher);
