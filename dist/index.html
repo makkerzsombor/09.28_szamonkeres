@@ -6,14 +6,34 @@
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
 </head>
 <body>
     <p>This is a template</p>    
-    <label>A kép URL-je: </label><input type="text" id="kepurl"><br>
-    <label>A kép szélessége: </label><input type="number" id="kepszel"><br>
-    <label>A kép keretének vastagsága: </label><input type="number" id="kepkervas"><br>
-    <label>A kép keret szine: </label><input type="text" id="kepkerszin"><br>
-    <img id="kepid" src="" alt="">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-3">
+                <label>A kép URL-je: </label><input type="text" id="kepurl">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <label>A kép szélessége: </label><input type="number" id="kepszel">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <label>A kép keretének vastagsága: </label><input type="number" id="kepkervas">
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <label>A kép keret szine: </label><input type="color" id="kepkerszin">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <img id="kepid" src="" alt="">
+    </div>    
+    <footer>
+        <p>Makker Zsombor 2/14T</p>
+        <button id="gomb">Sötét mód</button>
+    </footer>
     <script src='main.js'></script>
 </body>
 </html>

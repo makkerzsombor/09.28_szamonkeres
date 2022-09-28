@@ -1,0 +1,8 @@
+#kepid{
+    width: auto;
+    border: 1px solid black;    
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
