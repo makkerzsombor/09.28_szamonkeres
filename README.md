@@ -15,3 +15,4 @@
 * A JavaScript kód belépési pontja az src/index.js
 * A package.json már tartalmazza a bootstrap-et, az index.js-ből importálható a hozzá tartozó JS és a CSS kód
 * Fejlesztés közbeni fordításhoz használd az "npm run watch" utasítást
+
