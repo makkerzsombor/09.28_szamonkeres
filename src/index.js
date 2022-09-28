@@ -15,7 +15,7 @@ function kepKeretChange() {
         document.getElementById('kepid').style.border = parseInt(document.getElementById('kepkervas').value) +"px solid"+ document.getElementById('kepkerszin').value
 }
 function borderChange() {    
-    document.getElementById('kepid').style.borderImageColor = document.getElementById('kepkerszin').value;
+    document.getElementById('kepid').style.borderColor = document.getElementById('kepkerszin').value;
 }
 
 document.getElementById('kepurl').addEventListener('change',urlChange)
